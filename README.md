@@ -35,3 +35,4 @@
 - Should this have a UI or be kept as the back end only?
 - How should keys be added? Is this part of the UI component?
 - How should keys be managed/ stored?
+- Should this be open sourced to enable others to contribute additional APIs?
