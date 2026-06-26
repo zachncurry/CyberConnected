@@ -29,4 +29,9 @@
 - Develop 3 APIs
 - Develop the infrastructure to aggregate the API data
 - Deploy foundational framework to support future build out to encompass additional appliances, software, and companies
-- Potentially transition this project into an open source project
+- Potentially transition this project into an open source project for others to contibute additional API integrations
+
+## Open Questions
+- Should this have a UI or be kept as the back end only?
+- How should keys be added? Is this part of the UI component?
+- How should keys be managed/ stored?
