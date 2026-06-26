@@ -17,3 +17,16 @@
      - Ingestion Tier: High-performance Go daemons stream telemetry directly from upstream third-party security APIs, passing raw payloads to Python workers for structure normalization and MITRE ATT&CK framework enrichment.
      - Data Pipeline Layer: Normalized events are pushed onto optimized Kafka topics. Dedicated consumers subscribe to these topics and distribute the data downstream to the appropriate storage arrays based on the data type.
      - Unified Access Interface: The consumption layer exposes a robust GraphQL gateway. When an analyst queries an incident, the gateway intelligently queries the Time-Series layer for when it happened, the Graph layer for what else is impacted, and the Relational layer for who owns the asset—stitching it into a single response payload.
+
+
+
+## Planning my approach
+- Take inventory of cybersecurtiy appliances such as Switches, Routers, Firewalls, SIEMS, & SOARS
+- Take inventory of cybsercurity platforms such as SIEMs, SOARs, VPNs, Intelligence Feeds
+- Take inventory of Companies supporting the Cybersecuity Ecosystem such as Cisco, AWS, Azure, Google, IBM, Crowdstrike, Palo Alto, DataDog
+- Select one company to focus efforts such as Cisco to then outline which APIs are needed to be built
+- Develop unit tests for each API
+- Develop 3 APIs
+- Develop the infrastructure to aggregate the API data
+- Deploy foundational framework to support future build out to encompass additional appliances, software, and companies
+- Potentially transition this project into an open source project
