@@ -38,7 +38,7 @@
 - Should this be open sourced to enable others to contribute additional APIs?
 
 ## Company Selected
-Cisco because this aligns with my study of Cisco DevNet and they are still the predominate 
+Cisco because this aligns with my study of Cisco DevNet.
 
 ## Appliances Selected
 - Switches: Stream operational state, port statistics, and packet info using YANG-based RESTCONF/NETCONF or gRPC streaming telemetry.
